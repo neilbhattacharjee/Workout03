@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556937969871.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C95B2907",
+    "lastKnownWriteTime" : 1556937986,
+    "last_content_update" : 1556937986676,
+    "path" : "C:/Users/Subrata/Desktop/stat133/binomial2/tests/testthat/test-binomial.R",
+    "project_path" : "tests/testthat/test-binomial.R",
+    "properties" : {
+        "cursorPosition" : "8,41",
+        "scrollLine" : "4"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

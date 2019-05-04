@@ -1,0 +1,43 @@
+title: "Binomial Package"
+author: "Neil Bhattacharjee"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to Binomial Distribution Package}
+%\VignetteEngine{knitr::rmarkdown}
+%\VignetteEncoding{UTF-8}
+---
+  
+  ```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = T, comment = "#>")
+```
+##Getting Started with the Binomial Library 
+```{r chunk1}
+library(binomial2)
+
+
+```
+
+##Using the Binomial Library 
+
+```{r chunk2}
+## this chooses 10 out of 5
+bin_choose(10,5)
+##This gives the probability of success given p and trials 
+bin_probability(50,100,0.5)
+
+dist <- bin_distribution(100,0.5)
+plot.bindis(dist)
+
+dist2 <- bin_cumulative(100, 0.5)
+plot.bincum(dist2)
+
+bin2  <- bin_variable(0.3, 100)
+print.binvar(bin2)
+lol <- summary.binvar(bin2)
+print.summary.binvar(lol)
+
+
+
+
+```
